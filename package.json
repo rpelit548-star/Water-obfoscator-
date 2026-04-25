@@ -1,25 +1,26 @@
 {
   "name": "unveilx-deobfuscator",
   "version": "1.0.0",
-  "description": "Bot de Discord para desofuscación de scripts Lua",
+  "description": "Motor de desofuscación dinámica de Lua para Node.js",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "keywords": [
-    "discord",
     "lua",
     "deobfuscator",
-    "unveilx"
+    "discord-bot",
+    "reverse-engineering"
   ],
-  "author": "rpelit548-star",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^14.14.1",
-    "undici": "^6.6.0"
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5"
   },
-  "engines": {
-    "node": ">=18.0.0"
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   }
 }
